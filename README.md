@@ -2,7 +2,7 @@
 
 `watson` is your personal assistant from your terminal.
 
-## 🛠 Requirements
+## Requirements
 
 - Go 1.24+
 - A valid OpenAI API key (set as an environment variable)
@@ -25,6 +25,6 @@ Run it from the source code:
 
 Or `go install` it and.
 
-❤️ Credits
+## Credits
 
-Created by zuzuleinen using the amazing tools from [Charmbracelet](https://charm.sh/).
+Created using the amazing tools from [Charmbracelet](https://charm.sh/).
