@@ -40,7 +40,7 @@ func main() {
 	)
 
 	huh.NewInput().
-		Title("How may I help you sir?").
+		Title("How may I help you, sir?").
 		Value(&question).
 		Run()
 
