@@ -1,6 +1,8 @@
 # watson
 
-`watson` is your personal assistant from your terminal.
+Tired of switching from terminal to GPT on browser? `watson` is your personal assistant from your terminal.
+
+Using GPT under the hood, `watson` makes sure you're staying focused in the terminal.
 
 ## Requirements
 
@@ -23,7 +25,7 @@ Run it from the source code:
    go run .
 ```
 
-Or `go install` it and.
+Or `go install` and use the generated binary.
 
 ## Credits
 
