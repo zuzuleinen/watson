@@ -4,6 +4,8 @@ Tired of switching from terminal to GPT on browser? `watson` is your personal as
 
 Using GPT under the hood, `watson` makes sure you're staying focused in the terminal.
 
+![GIF Example](https://github.com/zuzuleinen/watson/blob/main/demo.gif)
+
 ## Requirements
 
 - Go 1.24+
