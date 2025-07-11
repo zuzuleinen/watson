@@ -28,6 +28,11 @@ type ContentItem struct {
 	Text string `json:"text"`
 }
 
+const (
+	model = "gpt-3.5-turbo-0125"
+	url   = "https://api.openai.com/v1/responses"
+)
+
 func main() {
 	var (
 		answer   string
@@ -45,12 +50,9 @@ func main() {
 			return errors.New("OPENAI_API_KEY environment variable not setx")
 		}
 
-		url := "https://api.openai.com/v1/responses"
-		model := "gpt-3.5-turbo-0125"
-
 		payload := map[string]interface{}{
 			"model":        model,
-			"instructions": "Make sure all your response is valid Markdown.",
+			"instructions": "Make sure your response is valid Markdown.",
 			"input":        question,
 		}
 
