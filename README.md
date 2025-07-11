@@ -27,6 +27,10 @@ Run it from the source code:
 
 Or `go install` and use the generated binary.
 
+## Info
+
+`watson` is using `gpt-3.5-turbo-0125` model.
+
 ## Credits
 
 Created using the amazing tools from [Charmbracelet](https://charm.sh/).
