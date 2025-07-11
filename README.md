@@ -9,7 +9,7 @@ Using GPT under the hood, `watson` makes sure you're staying focused in the term
 ## Requirements
 
 - Go 1.24+
-- A valid OpenAI API key (set as an environment variable)
+- A valid OpenAI API key
 
 ## Installation
 
