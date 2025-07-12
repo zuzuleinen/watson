@@ -47,7 +47,7 @@ func main() {
 	findAnswer := func(ctx context.Context) error {
 		apiKey := os.Getenv("OPENAI_API_KEY")
 		if apiKey == "" {
-			return errors.New("OPENAI_API_KEY environment variable not setx")
+			return errors.New("OPENAI_API_KEY environment variable not set")
 		}
 
 		payload := map[string]interface{}{
